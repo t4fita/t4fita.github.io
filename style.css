@@ -129,7 +129,6 @@ nav .closeMenu:hover{
 
 .btn-box a{
     display:inline-block;
-    position: relative;
     border: 1px;
     border-style: solid;
     border-color: var(--main-color);
