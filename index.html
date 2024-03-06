@@ -4,8 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></> Tafita.</title>
-    <link rel="stylesheet" href="style.css">
+
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- Fontawesome Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <body>
@@ -17,18 +24,17 @@
                 <a href="#">Home</a>
                 <a href="#">About</a>
                 <a href="#">Portfolio</a>
-                <a href="#">Services</a>
-                <a href="#">Contact Me</a>
+                <a href="#">Contact</a>
                 <div class="closeMenu"><i class="bx bx-x"></i></div>
             </ul> 
         </nav>
     </header>
 
-    <script rel="stylesheet" src="index.js"></script>
     
     <div class="container">
-        <section class="home">
-            <div class="home-content">
+        <!-- Home section-->
+        <section id="home">
+            <div class="content">
                 <h1>Hello, my name is</h1>
                 <h2>Tafita R.</h2>
                 <h3>I love understanding new things!</h3>
@@ -40,12 +46,106 @@
             </div>
         </section>
 
-        <section class="about">
-            <div class="about-content">
+        <!-- About section-->
+        <section id="about">
+            <div class="content">
                 <h1>About me</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quisquam tenetur possimus ducimus, quam repudiandae? Molestias nulla ducimus amet voluptatibus odit? Nostrum autem illum accusantium fuga optio quibusdam iusto. Facilis?</p>
+            
+                <div class="btn-box">
+                    <a href="#">Resume</a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Portfolio section-->
+        <section id="portfolio">
+            <div class="content">
+                <h1>Portfolio</h1>
+                    <div class="card-slider">
+                        <div class="card-container">
+                        <!-- Card 1 -->
+                        <div class="card">
+                            <div class="card-image">
+                            <img src="assets/img/project1.jpg" alt="Project1" class="card__img" />
+                            </div>
+                            <div class="card-content">
+                            <h1>Project 1</h1>
+                            <p>Brief description of Project 1</p>
+                            <div class="btn-box">
+                                <a href="#">More</a>
+                                <a href="#">View Code</a>
+                            </div>
+                            </div>
+                        </div>
+                    
+                        <!-- Card 2 -->
+                        <div class="card">
+                            <div class="card-image">
+                            <img src="assets/img/project2.jpg" alt="Project2" class="card__img" />
+                            </div>
+                            <div class="card-content">
+                            <h1>Project 2</h1>
+                            <p>Brief description of Project 2</p>
+                            <div class="btn-box">
+                                <a href="#">More</a>
+                                <a href="#">View Code</a>
+                            </div>
+                            </div>
+                        </div>
+                    
+                        <!-- Card 3 -->
+                        <div class="card">
+                            <div class="card-image">
+                            <img src="assets/img/project3.jpg" alt="Project3" class="card__img" />
+                            </div>
+                            <div class="card-content">
+                            <h1>Project 3</h1>
+                            <p>Brief description of Project 3</p>
+                            <div class="btn-box">
+                                <a href="#">More</a>
+                                <a href="#">View Code</a>
+                            </div>
+                            </div>
+                        </div>
+                    
+                        <!-- Card 4 -->
+                        <div class="card">
+                            <div class="card-image">
+                            <img src="assets/img/project4.jpg" alt="Project4" class="card__img" />
+                            </div>
+                            <div class="card-content">
+                            <h1>Project 4</h1>
+                            <p>Brief description of Project 4</p>
+                            <div class="btn-box">
+                                <a href="#">More</a>
+                                <a href="#">View Code</a>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+
+        <!-- Contact section-->
+        <section id="contact">
+            <div class="content">
+                <h1>Contact</h1>
+                <h2>Get In Touch</h2>
+                <p>My door is always open for a good cup of coffee. Whether you have a question or just want to say hi, feel free to email me about anything!</p>
+                
+                <div class="btn-box">
+                    <a href="#">Email me</a>
+                </div>
+            
             </div>
         </section>
     </div>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
