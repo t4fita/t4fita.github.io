@@ -426,7 +426,8 @@ section{
         align-items: center;
         justify-content: center;
         background-color: var(--bg-alpha-color);
-        backdrop-filter: blur(8px) contrast(100%);
+        backdrop-filter: blur(8px) contrast(100%)!important;
+        -webkit-backdrop-filter: blur(8px) contrast(100%)!important;
         transition: top 1s ease;
         display: none;    
     }
