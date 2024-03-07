@@ -13,6 +13,8 @@
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    
+
 </head>
 
 <body>
@@ -21,10 +23,10 @@
             <a href="#" class="logo"><i class='bx bx-code-alt'></i> Tafita.</a>
             <div class="openMenu"><i class="bx bx-menu"></i></div>
             <ul class="mainMenu">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Portfolio</a>
-                <a href="#">Contact</a>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
                 <div class="closeMenu"><i class="bx bx-x"></i></div>
             </ul> 
         </nav>
@@ -63,69 +65,76 @@
         <section id="portfolio">
             <div class="content">
                 <h1>Portfolio</h1>
-                    <div class="card-slider">
-                        <div class="card-container">
+                <p>Here are a few things that I've built!</p>
+                
+                <div class="card-slider">
+                    <div class="card-container">
                         <!-- Card 1 -->
                         <div class="card">
                             <div class="card-image">
-                            <img src="assets/img/project1.jpg" alt="Project1" class="card__img" />
+                                <img src="assets/img/project1.jpg" alt="Project1" class="card__img" />
                             </div>
-                            <div class="card-content">
-                            <h1>Project 1</h1>
-                            <p>Brief description of Project 1</p>
-                            <div class="btn-box">
-                                <a href="#">More</a>
-                                <a href="#">View Code</a>
-                            </div>
+                            <div class="content">
+                                <h1>Project 1</h1>
+                                <p>Brief description of Project 1</p>
+                                <div class="btn-box">
+                                    <a href="#">See More</a>
+                                    <a href="#"> ViewCode</a>
+                                </div>
                             </div>
                         </div>
                     
                         <!-- Card 2 -->
                         <div class="card">
                             <div class="card-image">
-                            <img src="assets/img/project2.jpg" alt="Project2" class="card__img" />
+                                <img src="assets/img/project2.jpg" alt="Project2" class="card__img" />
                             </div>
-                            <div class="card-content">
-                            <h1>Project 2</h1>
-                            <p>Brief description of Project 2</p>
-                            <div class="btn-box">
-                                <a href="#">More</a>
-                                <a href="#">View Code</a>
-                            </div>
+                            <div class="content">
+                                <h1>Project 2</h1>
+                                <p>Brief description of Project 2</p>
+                                <div class="btn-box">
+                                    <a href="#">See More</a>
+                                    <a href="#">View Code</a>
+                                </div>
                             </div>
                         </div>
                     
                         <!-- Card 3 -->
                         <div class="card">
                             <div class="card-image">
-                            <img src="assets/img/project3.jpg" alt="Project3" class="card__img" />
+                                <img src="assets/img/project3.jpg" alt="Project3" class="card-img" />
                             </div>
-                            <div class="card-content">
-                            <h1>Project 3</h1>
-                            <p>Brief description of Project 3</p>
-                            <div class="btn-box">
-                                <a href="#">More</a>
-                                <a href="#">View Code</a>
-                            </div>
+                            <div class="content">
+                                <h1>Project 3</h1>
+                                <p>Brief description of Project 3</p>
+                                <div class="btn-box">
+                                    <a href="#">See More</a>
+                                    <a href="#">ViewCode</a>
+                                </div>
                             </div>
                         </div>
                     
                         <!-- Card 4 -->
                         <div class="card">
                             <div class="card-image">
-                            <img src="assets/img/project4.jpg" alt="Project4" class="card__img" />
+                                <img src="assets/img/project4.jpg" alt="Project4" class="card-img" />
                             </div>
-                            <div class="card-content">
-                            <h1>Project 4</h1>
-                            <p>Brief description of Project 4</p>
-                            <div class="btn-box">
-                                <a href="#">More</a>
-                                <a href="#">View Code</a>
-                            </div>
+                            <div class="content">
+                                <h1>Project 4</h1>
+                                <p>Brief description of Project 4</p>
+                                <div class="btn-box">
+                                    <a href="#">See More</a>
+                                    <a href="#">View Code</a>
+                                </div>
                             </div>
                         </div>
+
+                        <!-- More -->
+                        <div class="more">
+                            <a href="#">+</a>
                         </div>
                     </div>
+                </div>
             </div>
         </section>
 
@@ -145,7 +154,17 @@
         </section>
     </div>
 
-    <!--=============== MAIN JS ===============-->
-    <script src="assets/js/main.js"></script>
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by T4fita | All Rights Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    
+    <script src="assets/js/index.js"></script>
 </body>
 </html>
